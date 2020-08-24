@@ -10,6 +10,7 @@
 		1F1B911DB5C805B1C4A87094 /* Pods_FireChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 579F1CC671C653DB2D121BC9 /* Pods_FireChat.framework */; };
 		EE0609BB24F442290018444A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE0609BA24F442290018444A /* GoogleService-Info.plist */; };
 		EEAE5D4524F44EAE005D230B /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE5D4424F44EAE005D230B /* AuthService.swift */; };
+		EEAE5D4724F45C30005D230B /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE5D4624F45C30005D230B /* NewMessageController.swift */; };
 		EEE9A30424F35B0D00AA3643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE9A30324F35B0D00AA3643 /* AppDelegate.swift */; };
 		EEE9A30624F35B0D00AA3643 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE9A30524F35B0D00AA3643 /* SceneDelegate.swift */; };
 		EEE9A30824F35B0D00AA3643 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE9A30724F35B0D00AA3643 /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 		C0024ADE9AAA0580243B08AE /* Pods-FireChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireChat.release.xcconfig"; path = "Target Support Files/Pods-FireChat/Pods-FireChat.release.xcconfig"; sourceTree = "<group>"; };
 		EE0609BA24F442290018444A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		EEAE5D4424F44EAE005D230B /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		EEAE5D4624F45C30005D230B /* NewMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
 		EEE9A30024F35B0D00AA3643 /* FireChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE9A30324F35B0D00AA3643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEE9A30524F35B0D00AA3643 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			children = (
 				EEE9A31F24F360EF00AA3643 /* Authentication */,
 				EEE9A31D24F35B5F00AA3643 /* ConversationsController.swift */,
+				EEAE5D4624F45C30005D230B /* NewMessageController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				EEE9A32524F3639500AA3643 /* Extensions.swift in Sources */,
 				EEE9A32C24F417FC00AA3643 /* LoginViewModel.swift in Sources */,
 				EEE9A32924F40F8A00AA3643 /* CustomTextField.swift in Sources */,
+				EEAE5D4724F45C30005D230B /* NewMessageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
