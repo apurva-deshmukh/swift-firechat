@@ -12,6 +12,10 @@ class ProfileCell: UITableViewCell {
     
     // MARK: - Properties
     
+    var viewModel: ProfileViewModel? {
+        didSet { configure() }
+    }
+    
     private lazy var iconView: UIView = {
         let view = UIView()
         
@@ -56,5 +60,14 @@ class ProfileCell: UITableViewCell {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    // MARK: - Helpers
+    
+    func configure() {
+        guard let viewModel = viewModel else { return }
+        
+        iconImage.image = UIImage(systemName: viewModel.iconImageName)
+        titleLabel.text = viewModel.description
     }
 }

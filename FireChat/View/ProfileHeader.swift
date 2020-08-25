@@ -45,7 +45,6 @@ class ProfileHeader: UIView {
         label.font = UIFont.boldSystemFont(ofSize: 20)
         label.textColor = .white
         label.textAlignment = .center
-        label.text = "fullname"
         return label
     }()
     
@@ -54,7 +53,6 @@ class ProfileHeader: UIView {
         label.font = UIFont.systemFont(ofSize: 16)
         label.textColor = .white
         label.textAlignment = .center
-        label.text = "@username"
         return label
     }()
     
