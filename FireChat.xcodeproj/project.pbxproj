@@ -33,6 +33,13 @@
 		EEE9A32924F40F8A00AA3643 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE9A32824F40F8A00AA3643 /* CustomTextField.swift */; };
 		EEE9A32C24F417FC00AA3643 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE9A32B24F417FC00AA3643 /* LoginViewModel.swift */; };
 		EEE9A32E24F41D6600AA3643 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE9A32D24F41D6600AA3643 /* RegistrationViewModel.swift */; };
+		EEF9804324F556910038E50D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9804224F556910038E50D /* Constants.swift */; };
+		EEF9804524F563FB0038E50D /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9804424F563FB0038E50D /* ConversationCell.swift */; };
+		EEF9804724F5663F0038E50D /* ConversationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9804624F5663F0038E50D /* ConversationViewModel.swift */; };
+		EEF9804924F568A60038E50D /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9804824F568A60038E50D /* ProfileController.swift */; };
+		EEF9804B24F569620038E50D /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9804A24F569620038E50D /* ProfileHeader.swift */; };
+		EEF9804D24F570B20038E50D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9804C24F570B20038E50D /* ProfileViewModel.swift */; };
+		EEF9804F24F571BD0038E50D /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9804E24F571BD0038E50D /* ProfileCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +73,13 @@
 		EEE9A32824F40F8A00AA3643 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		EEE9A32B24F417FC00AA3643 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		EEE9A32D24F41D6600AA3643 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		EEF9804224F556910038E50D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EEF9804424F563FB0038E50D /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
+		EEF9804624F5663F0038E50D /* ConversationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewModel.swift; sourceTree = "<group>"; };
+		EEF9804824F568A60038E50D /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		EEF9804A24F569620038E50D /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		EEF9804C24F570B20038E50D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		EEF9804E24F571BD0038E50D /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				EEE9A32424F3639500AA3643 /* Extensions.swift */,
+				EEF9804224F556910038E50D /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -160,6 +175,7 @@
 				EEE9A31D24F35B5F00AA3643 /* ConversationsController.swift */,
 				EEAE5D4624F45C30005D230B /* NewMessageController.swift */,
 				EEAF568C24F4A03300033F10 /* ChatController.swift */,
+				EEF9804824F568A60038E50D /* ProfileController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -172,6 +188,9 @@
 				EEAF568624F4964000033F10 /* UserCell.swift */,
 				EEAF568E24F4A3F300033F10 /* CustomInputAccessoryView.swift */,
 				EEAF569024F4AA8200033F10 /* MessageCell.swift */,
+				EEF9804424F563FB0038E50D /* ConversationCell.swift */,
+				EEF9804A24F569620038E50D /* ProfileHeader.swift */,
+				EEF9804E24F571BD0038E50D /* ProfileCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,6 +219,8 @@
 				EEE9A32B24F417FC00AA3643 /* LoginViewModel.swift */,
 				EEE9A32D24F41D6600AA3643 /* RegistrationViewModel.swift */,
 				EEAF569424F4B09300033F10 /* MessageViewModel.swift */,
+				EEF9804624F5663F0038E50D /* ConversationViewModel.swift */,
+				EEF9804C24F570B20038E50D /* ProfileViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -320,7 +341,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF9804924F568A60038E50D /* ProfileController.swift in Sources */,
 				EEE9A30824F35B0D00AA3643 /* ViewController.swift in Sources */,
+				EEF9804324F556910038E50D /* Constants.swift in Sources */,
+				EEF9804D24F570B20038E50D /* ProfileViewModel.swift in Sources */,
 				EEE9A32E24F41D6600AA3643 /* RegistrationViewModel.swift in Sources */,
 				EEE9A30424F35B0D00AA3643 /* AppDelegate.swift in Sources */,
 				EEAE5D4524F44EAE005D230B /* AuthService.swift in Sources */,
@@ -330,14 +354,18 @@
 				EEAF568724F4964000033F10 /* UserCell.swift in Sources */,
 				EEE9A32324F3610600AA3643 /* RegistrationController.swift in Sources */,
 				EEAF568924F498F400033F10 /* User.swift in Sources */,
+				EEF9804F24F571BD0038E50D /* ProfileCell.swift in Sources */,
 				EEAF568B24F4996300033F10 /* Service.swift in Sources */,
 				EEAF569124F4AA8200033F10 /* MessageCell.swift in Sources */,
+				EEF9804724F5663F0038E50D /* ConversationViewModel.swift in Sources */,
 				EEE9A32724F40D2500AA3643 /* InputContainerView.swift in Sources */,
 				EEE9A32124F360FB00AA3643 /* LoginController.swift in Sources */,
 				EEE9A32524F3639500AA3643 /* Extensions.swift in Sources */,
+				EEF9804B24F569620038E50D /* ProfileHeader.swift in Sources */,
 				EEE9A32C24F417FC00AA3643 /* LoginViewModel.swift in Sources */,
 				EEAF568D24F4A03300033F10 /* ChatController.swift in Sources */,
 				EEE9A32924F40F8A00AA3643 /* CustomTextField.swift in Sources */,
+				EEF9804524F563FB0038E50D /* ConversationCell.swift in Sources */,
 				EEAF569324F4AE6F00033F10 /* Message.swift in Sources */,
 				EEAE5D4724F45C30005D230B /* NewMessageController.swift in Sources */,
 				EEAF568F24F4A3F300033F10 /* CustomInputAccessoryView.swift in Sources */,
